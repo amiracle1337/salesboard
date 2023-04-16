@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Leaderboard</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class= "parent-container">
+    <main class="holder">
+        <section class="color-compontent">
+            <button class="btn color-mode ">Dark mode</button>
+        </section>
+        <section class="hero">
+            <h1 class="hero-title">Sales tracker</h1>
+            <img class="sales-rep" src="images/monkey.gif">
+            <div class="btn-container">
+                <button class="btn product-a">Paid in full</button>
+                <button class="btn product-b">Deposit</button>
+            </div>
+        </section>
+            <section class="live-stats">
+                <p class="sales-count">Live sales:</p>
+                <div class="sales-container"></div>
+                <p class="achievments-count">Live achievments:</p>
+                <div class="achievments-container"></div>
+            </section>
+            <section class="analytics">
+                <div class="revenue-container">
+                    <p>Total revenue</p>
+                    <div class="stats-revenue"></div>
+                </div>
+                <div class="comission-container">
+                    <p>Total comission</p>
+                    <div class="stats-comission"></div>
+                </div>
+            </section>
+            <button class="btn reset-stats">Reset</button>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
